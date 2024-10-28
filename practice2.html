@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <h1>Practice 2: CSS Font Control</h1>
+    </head>
+    <body>
+        <p id="placeholder" style="border-style:double;">This is some placeholder text that you can alter the style of using the options below!</p> <!--placeholder text with double border around it. This border and the background of this text can be altered by the user based on what numbers the enter at each of the inputs-->
+        
+        <h3>RGB value for the border:</h3>
+        R <input type="text" id="borderR" value=""> <!--input for the user to enter an rgb value(0-255). The initial value of this input is blank, but when the user enters one, it will become the value for this input id-->
+        G <input type="text" id="borderG" value=""> <!--input for the user to enter an rgb value(0-255). The initial value of this input is blank, but when the user enters one, it will become the value for this input id-->
+        B <input type="text" id="borderB" value=""> <!--input for the user to enter an rgb value(0-255). The initial value of this input is blank, but when the user enters one, it will become the value for this input id-->
+        <br> <!--Break line tag that creates a line of space between the text before and after the tag in this html code-->
+
+        <h3>Border Width:</h3>
+        Width <input type="text" id="borderWIDTH" value=""> <!--input to enter a width for the border around the placeholder text. Whatever value is entered here will be the pixel width of the border-->
+        <br> <!--Break line tag that creates a line of space between the text before and after the tag in this html code-->
+
+        <h3>RGB value for the background:</h3>
+        R <input type="text" id="backgroundR" value=""> <!--input for the user to enter an rgb value(0-255). The initial value of this input is blank, but when the user enters one, it will become the value for this input id-->
+        G <input type="text" id="backgroundG" value=""> <!--input for the user to enter an rgb value(0-255). The initial value of this input is blank, but when the user enters one, it will become the value for this input id-->
+        B <input type="text" id="backgroundB" value=""> <!--input for the user to enter an rgb value(0-255). The initial value of this input is blank, but when the user enters one, it will become the value for this input id-->
+        <br> <!--Break line tag that creates a line of space between the text before and after the tag in this html code-->
+        
+        <script type="text/javascript" src="lab6script.js"></script><!--imports a source script 'lab6script' to handle all the javascript for this html file-->
+        <button onclick="practice2()">Change Style</button> <!--Creates a button and when it is clicked, the practice2 function of the lab6script javascript file runs-->
+        
+    </body>
+</html>
